@@ -13,7 +13,6 @@ thanks to set of helper methods to get the desired result right out of the query
 thanks to the indispensabe **parse()** method, making complex queries as easy and safe as regular ones.
 
 Yet, it is very easy to use. You need to learn only a few things:
-
 1. You have to **always** pass whatever dynamical data into the query via *placeholder*
 2. Each placeholder have to be marked with data type. At the moment there are six types:
  * ?s ("string")  - strings (also ```DATE```, ```FLOAT``` and ```DECIMAL```)
